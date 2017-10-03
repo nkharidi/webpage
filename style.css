@@ -1,0 +1,86 @@
+/*
+* style.css
+*/
+
+h1{
+  text-align: center;
+  font-family:fantasy;
+  color: #F48FB1;
+  font-size: 5em;
+}
+hr {
+  border-color: #F48FB1;
+}
+
+h2{
+  font-family:fantasy;
+  color: #F48FB1;
+  font-size: 2.5em;
+  text-align: left;
+  /*background-color: #FDFEFE;*/
+  padding: 2px;
+  border-bottom: 1px solid #F48FB1;
+}
+
+.contact{
+    font-size: 1.2em;
+}
+
+h3{
+  font-family: fantasy;
+  color: #F48FB1;
+  font-size: 2em;
+  text-align:center;
+  /*background-color: #FDFEFE;*/
+  padding: 2px;
+  border-bottom: 1px solid #F48FB1;
+}
+p2{
+  font-size: 150%;
+}
+
+.middlePart{
+
+  text-align: center;
+}
+
+h4{
+  font-family: fantasy;
+  color: #F48FB1;
+  font-size: 7em;
+  text-align:center;
+}
+h5{
+  font-family: fantasy;
+  color: #F48FB1;
+  font-weight: bold;
+  font-size: 4em;
+  text-align:left;
+  /*text-decoration: underline;
+  background-color: #FDFEFE;*/
+  padding: 2px;
+  border-bottom: 1px solid #F48FB1;
+}
+
+ul.a{
+  list-style-type: circle;
+  font-size: 1.5em;
+}
+
+
+body{
+  background-image:url("1.jpg");
+  background-repeat: repeat-x;
+
+/* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img{
+  height: 470px;
+  width: 110%;
+  /*float: center;*/
+  position:absolute;
+}
